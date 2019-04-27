@@ -2,7 +2,7 @@ package com.peedeep.library.thirdpart;
 
 /**
  * Created by rick on 2019/4/1.
- * TODO
+ * 模拟第三方需要的返回类型。
  */
 public class RadioResponse {
 

@@ -8,7 +8,8 @@ import com.peedeep.library.util.Func;
 
 /**
  * Created by rick on 2019/4/26.
- * TODO
+ * 处理第三方回调的代理类，
+ * 给中间层提供第三方回调的参数值及参数类型、返回值及返回类型。
  */
 public class RadioProxy implements RadioListener {
 

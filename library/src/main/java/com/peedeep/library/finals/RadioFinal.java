@@ -1,16 +1,17 @@
 package com.peedeep.library.finals;
 
 import com.peedeep.library.middles.RadioMiddle;
-import com.peedeep.library.subject.RadioSubject;
+import com.peedeep.library.contracts.RadioContract;
 import com.peedeep.library.util.Body;
 import com.peedeep.library.util.Func;
 import com.peedeep.library.util.Transition;
 
 /**
  * Created by rick on 2019/4/26.
- * TODO
+ * 返回第三方接口需要的最终类型，
+ * 过滤不需要返回值的方法。
  */
-public class RadioFinal implements RadioSubject.Final {
+public class RadioFinal implements RadioContract.Final {
 
     private final RadioMiddle radioMiddle;
 

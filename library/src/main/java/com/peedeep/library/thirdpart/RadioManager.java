@@ -7,7 +7,7 @@ import java.util.Set;
 
 /**
  * Created by rick on 2019/4/26.
- * TODO
+ * 模拟第三方的数据回调。
  */
 public class RadioManager {
 
@@ -38,7 +38,7 @@ public class RadioManager {
         }
     }
 
-    public void remove(RadioListener radioListener) {
+    public void removeListener(RadioListener radioListener) {
         if (listeners != null) {
             listeners.remove(radioListener);
         }
